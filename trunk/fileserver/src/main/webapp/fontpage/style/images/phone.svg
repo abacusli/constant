@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合作商中心-合作商列表" transform="translate(-1676.000000, -331.000000)" fill-rule="nonzero" fill="#616161">
+            <g id="表" transform="translate(283.000000, 257.000000)">
+                <g id="表内文字" transform="translate(158.000000, 69.000000)">
+                    <g id="导入手机" transform="translate(1228.000000, 0.000000)">
+                        <g id="phone" transform="translate(7.000000, 5.000000)">
+                            <path d="M5,4.5 L5,1 L6,1 L6,3 L13,3 C13.5522847,3 14,3.44771525 14,4 L14,17 C14,17.5522847 13.5522847,18 13,18 L6,18 C5.44771525,18 5,17.5522847 5,17 L5,4.5 Z M6,4 L6,17 L13,17 L13,4 L6,4 Z M6,7 L13,7 L13,8 L6,8 L6,7 Z M7,10 L8,10 L8,11 L7,11 L7,10 Z M7,12 L8,12 L8,13 L7,13 L7,12 Z M7,14 L8,14 L8,15 L7,15 L7,14 Z M9,10 L10,10 L10,11 L9,11 L9,10 Z M9,12 L10,12 L10,13 L9,13 L9,12 Z M9,14 L10,14 L10,15 L9,15 L9,14 Z M11,10 L12,10 L12,11 L11,11 L11,10 Z M11,12 L12,12 L12,13 L11,13 L11,12 Z M11,14 L12,14 L12,15 L11,15 L11,14 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

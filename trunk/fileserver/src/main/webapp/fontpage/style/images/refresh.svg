@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合作商中心-二维码列表" transform="translate(-1646.000000, -175.000000)" fill-rule="nonzero" fill="#5F5F5F">
+            <g id="Group-3" transform="translate(1637.000000, 166.000000)">
+                <g id="refresh" transform="translate(9.000000, 9.000000)">
+                    <path d="M2.56145959,13.5 C4.01361716,16.242629 6.85089184,18 10,18 C13.2329299,18 16.1372048,16.14783 17.5515349,13.2789138 L18.4484651,13.7210862 C16.8676592,16.927692 13.6181994,19 10,19 C6.69583255,19 3.69917488,17.2718024 2,14.5297656 L2,17.5 L1,17.5 L1,12.5 L1.5,12.5 L6,12.5 L6,13.5 L2.56145959,13.5 Z M17.4385404,6.5 C15.9863828,3.75737097 13.1491082,2 10,2 C6.76707015,2 3.86279524,3.85217004 2.44846506,6.72108617 L1.55153494,6.27891383 C3.13234081,3.07230796 6.38180058,1 10,1 C13.3041674,1 16.3008251,2.72819759 18,5.47023439 L18,2.5 L19,2.5 L19,7 L19,7.5 L14,7.5 L14,6.5 L17.4385404,6.5 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

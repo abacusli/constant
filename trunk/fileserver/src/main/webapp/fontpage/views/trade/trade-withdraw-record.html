@@ -1,0 +1,223 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="../../style/css/reset.min.css"/>
+	<link rel="stylesheet" href="../../style/css/font.min.css"/>
+	<link rel="stylesheet" href="../../style/css/common.min.css"/>
+
+	<link rel="stylesheet" type="text/css" media="all" href="../../style/css/daterangepicker-bs3.min.css" />
+	<link rel="stylesheet" href="../../style/css/bootstrap.another.min.css"/>
+	<link rel="stylesheet" href="../../style/css/daterangepicker.min.css"/>
+	<style>
+		html,body{
+			background: #f5f5f5;
+		}
+	</style>
+</head>
+<body>
+<header class="header-wapper">
+	<div class="headbox">
+		<a class=" headlogo left">
+			<!--<img class="vert_mid headerlogo" src="../../style/images/logo-head.png"/>-->
+			<p class="logo-big-title">乐享钱包</p>
+			<p class="logo-small-title">管理后台</p>
+		</a>
+		<ul class="headul left">
+			<li><a href="#">首页</a></li>
+			<li><a href="#" class="current">交易中心</a></li>
+			<li><a href="#">合作商中心</a></li>
+			<li><a href="#">商户中心</a></li>
+			<li><a href="#">APP设置</a></li>
+			<li><a href="#">站点配置</a></li>
+			<li><a href="#">管理设置</a></li>
+			<li><a href="#">微信设置</a></li>
+		</ul>
+		<div class="userinfo-head  right">
+			<p class="account">935366286@qq.com</p>
+			<span class="smallname font-blue">修改密码</span>
+			<span class="smallname font-red">退出登录</span>
+		</div>
+	</div>
+</header>
+
+	<div class="left-aside only-one-nav">
+	<ul class="nav-ul">
+		<li class="item-nav">
+			<a href="./trade-stream.html" class="current-active">
+				<span class="navIcon"></span>
+				<span class="name">交易流水</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-profit-statistics.html">
+				<span class="navIcon"></span>
+				<span class="name">利润统计</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-withdraw-record.html">
+				<span class="navIcon"></span>
+				<span class="name">提现记录</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-merchant-withdraw-record.html">
+				<span class="navIcon"></span>
+				<span class="name">商户提现记录</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-authentic-record.html">
+				<span class="navIcon"></span>
+				<span class="name">鉴权记录</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-message-detail.html">
+				<span class="navIcon"></span>
+				<span class="name">短信明细</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-merchant-profit-detail.html">
+				<span class="navIcon"></span>
+				<span class="name">商户利润明细</span>
+			</a>
+		</li>
+		<li class="item-nav ">
+			<a href="./trade-profit-detail.html">
+				<span class="navIcon"></span>
+				<span class="name">利润明细</span>
+			</a>
+		</li>
+	</ul>
+</div>
+	<div class="right-aside" >
+		<div class="right-content border-bottom">
+			<p class="title-content">提现记录</p>
+			<from method="get" action="">
+				<div class="search-input">
+
+					<label class="label-title">订单时间:</label>
+					<div  style="width: 360px;" class="colum4 input-div calendar-icon">
+						<input id="calendartime" type="text" style="padding-left: 40px;" readonly="true"
+						       value="07/10/2017 - 08/08/2017"
+						       class="width360 form-control"/>
+					</div>
+					<label class="label-title">状态:</label>
+					<div class="colum15 input-div select-icon">
+						<select class="width230 form-control">
+							<option value="123">全部</option>
+							<option value="12323">处理中</option>
+							<option value="12353">成功</option>
+							<option value="12353">失败</option>
+						</select>
+					</div>
+					<label class="label-title">合作号:</label>
+					<div class="colum15 input-div">
+						<input class="width230 form-control"/>
+					</div>
+					<label class="label-title">订单号:</label>
+					<div class="colum15 input-div">
+						<input class="width230 form-control"/>
+					</div>
+				</div>
+				<div class="search-input">
+					<label class="label-title">合作商名称:</label>
+					<div class="colum15 input-div">
+						<input class="width230 form-control"/>
+					</div>
+					<label class="label-title">姓名:</label>
+					<div class="colum15 input-div">
+						<input class="width230 form-control"/>
+					</div>
+					<label class="label-title">手机号:</label>
+					<div class="colum15 input-div">
+						<input class="width230 form-control"/>
+					</div>
+					<div class="button btn-green width90">查询</div>
+					<div class="button btn-blue width90">导出</div>
+				</div>
+			</from>
+		</div>
+		<div class="right-content ">
+			<p class="title-content">订单列表</p>
+			<table class="table-content border-radius-top12">
+				<thead>
+					<tr>
+						<th>
+							<input type="checkbox" id="checkbox1" data-checkall="ordercheck" class="order-check displaynone"/> <label class="orderlabel" for="checkbox1"></label>
+						</th>
+						<th>合作商</th>
+						<th>姓名</th>
+						<th>银行卡</th>
+						<th>提现金额</th>
+						<th>申请时间</th>
+						<th>审核</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody class="table-content-tbody tbody-txt-left">
+					<tr>
+						<td><input type="checkbox" id="checkbox2"name="ordercheck"
+						           class="order-check displaynone"/>
+							<label class="orderlabel" for="checkbox2"></label></td>
+						<td >A0001 <br>
+							合作商名称</td>
+						<td >张三<br>
+							1287368190</td>
+						<td >12903791280098273<br>
+							浙江工商银行江南支行江南支行</td>
+						<td class="font-red">4.00元</td>
+						<td>2017-01-01 12:00</td>
+						<td >2017-01-01 12:00<br>
+							李四</td>
+						<td>提现成功</td>
+						<td >
+
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" id="checkbox3" name="ordercheck" class="order-check displaynone"/> <label
+								class="orderlabel" for="checkbox3"></label></td>
+						<td>A0001 <br>
+							合作商名称</td>
+						<td>张三<br>
+							1287368190</td>
+						<td>12903791280098273<br>
+							浙江工商银行江南支行江南支行</td>
+						<td class="font-red">4.00元</td>
+						<td>2017-01-01 12:00</td>
+						<td>2017-01-01 12:00<br>
+							李四</td>
+						<td>处理中</td>
+						<td >
+							<a href="#" class="font-green ">同意打款</a>
+							<a href="#" class="font-red mar-lf10">拒绝</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class=" table-footer-div">
+				<div class="button btn-gray">批量打款</div>
+				<div class="button btn-gray">批量拒绝</div>
+				<div class="button btn-gray">导出搜索结果(5)</div>
+				<p class="right mar-top10">搜索结果金额总计：<span class="font-red">10000.00元</span></p>
+			</div>
+			<!--分页-->
+			<div class="pagination-content">
+			</div>
+		</div>
+	</div>
+
+	<script src="../../style/script/jquery-3.1.1.min.js"></script>
+	<script src="../../style/script/jquery.pagination.js"></script>
+	<script src="../../style/script/bootstrap.min.js"></script>
+	<script src="../../style/script/moment.min.js"></script>
+	<script src="../../style/script/daterangepicker.min.js"></script>
+	<script src="../../style/script/common.js"></script>
+</body>
+</html>

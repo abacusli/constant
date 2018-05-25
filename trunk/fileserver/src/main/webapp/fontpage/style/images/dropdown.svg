@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="交易中心-交易流水" transform="translate(-1344.000000, -165.000000)" fill-rule="nonzero" fill="#616161">
+            <g id="交易类型" transform="translate(1063.000000, 156.000000)">
+                <g id="drop-down" transform="translate(281.000000, 8.000000)">
+                    <path d="M4.48528137,13.4852814 L14.4852814,13.4852814 L15.4852814,14.4852814 L3.48528137,14.4852814 L3.48528137,2.48528137 L4.48528137,3.48528137 L4.48528137,13.4852814 Z" id="dropdown" transform="translate(9.485281, 8.485281) rotate(-45.000000) translate(-9.485281, -8.485281) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

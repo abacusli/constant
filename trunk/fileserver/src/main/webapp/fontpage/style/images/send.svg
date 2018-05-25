@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>send</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商户中心-潜力用户列表" transform="translate(-290.000000, -254.000000)" fill-rule="nonzero" fill="#5F5F5F">
+            <g id="群发1" transform="translate(283.000000, 249.000000)">
+                <g id="send" transform="translate(7.000000, 5.000000)">
+                    <path d="M15.6706388,9.99232408 L2.91965322,3.98464816 L5.31046303,9.99232408 L15.6706388,9.99232408 Z M15.508508,10.9923241 L5.32358715,10.9923241 L2.97322079,16.0546516 L15.508508,10.9923241 Z M1.05356757,2 L19.2345544,10.5660419 L1,17.9299965 L4.44241476,10.5155647 L1.05356757,2 Z" transform="translate(10.117277, 9.964998) rotate(-360.000000) translate(-10.117277, -9.964998) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

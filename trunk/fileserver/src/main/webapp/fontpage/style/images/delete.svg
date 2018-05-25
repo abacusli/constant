@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App设置-项目管理" transform="translate(-290.000000, -254.000000)" fill-rule="nonzero" fill="#5F5F5F">
+            <g id="添加-copy" transform="translate(283.000000, 249.000000)">
+                <g id="delete" transform="translate(7.000000, 5.000000)">
+                    <path d="M6,4 L6,16 C6,16.5707731 6.39345802,17 6.83333333,17 L14.1666667,17 C14.606542,17 15,16.5707731 15,16 L15,4 L16,4 L16,16 C16,17.1045695 15.1791887,18 14.1666667,18 L6.83333333,18 C5.82081129,18 5,17.1045695 5,16 L5,4 L6,4 Z M5,4 L6,4 L6,16 C6,16.5707731 6.39345802,17 6.83333333,17 L14.1666667,17 C14.606542,17 15,16.5707731 15,16 L15,4 L16,4 L16,16 C16,17.1045695 15.1791887,18 14.1666667,18 L6.83333333,18 C5.82081129,18 5,17.1045695 5,16 L5,4 Z M8.83517058,3 L7.90659915,4 L4,4 L4,3 L7.52197227,3 L8.4505437,2 L12.5494563,2 L13.4780277,3 L17,3 L17,4 L13.0934008,4 L12.1648294,3 L8.83517058,3 Z M8,6 L9,6 L9,14 L8,14 L8,6 Z M10,6 L11,6 L11,14 L10,14 L10,6 Z M12,6 L13,6 L13,14 L12,14 L12,6 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
